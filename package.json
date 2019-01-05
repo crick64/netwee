@@ -1,0 +1,24 @@
+{
+  "name": "netwee",
+  "productName": "Netwee",
+  "version": "1.0.0",
+  "main": "main.js",
+  "license": "ISC",
+  "author": "CrK",
+  "scripts": {
+    "start": "electron .",
+    "package": "electron-packager ./ --platform=darwin --arch=x64 --out=out --icon=./icon.icns --overwrite"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/crick64/netwee.git"
+  },
+  "bugs": {
+    "url": "https://github.com/crick64/netwee/issues"
+  },
+  "homepage": "https://github.com/crick64/netwee#readme",
+  "devDependencies": {
+    "electron": "^4.0.0",
+    "electron-packager": "^13.0.1"
+  }
+}
